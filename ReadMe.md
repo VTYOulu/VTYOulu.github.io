@@ -5,10 +5,11 @@ Vite + React + Tailwind CSS
 
 Todo:
 - Github automatic deployment --> https://github.com/gitname/react-gh-pages --> https://www.youtube.com/watch?v=K5DTIf-jWhk
-- Conditional Showing
+- Conditional Showing x
 - All texts
-- Sponsors
-- Bottom bar
+- Sponsors x
+- Bottom bar x
+- responsive design x
 - Guide!
 
 Texts:

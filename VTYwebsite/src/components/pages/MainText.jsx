@@ -1,8 +1,11 @@
 import React from 'react';
 import Instagram from '../Instagram';
+import LinkText from '../LinkText';
 
-const MainText = () => {
-  return (
+
+//<LinkText clickHandler={onItemClick} item={"hello"}></LinkText>
+const MainText = ({onItemClick}) => {
+  return ( 
     <>
     <div className="max-w-3xl p-4">
       <h1 className="text-3xl font-semibold text-left mb-4">Tervetuloa Merikoskeen</h1>

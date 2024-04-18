@@ -9,6 +9,7 @@ import Sponsors from './components/Sponsors'
 import Events from './components/Events'
 import VTYBoard from './components/pages/VTYBoard'
 import PrivacyStatement from './components/pages/PrivacyStatement'
+import ErrorComponent from './components/ErrorComponent'
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
   };
 
   const componentMapping = {
-    Etusivu: <MainText />,
+    Etusivu: <MainText onItemClick={handleNavBarItemClick}/>,
     Hallitus: <VTYBoard />,
     Tietosuojaseloste: <PrivacyStatement />,
   };
@@ -32,11 +33,18 @@ function App() {
       <NavBar onItemClick={handleNavBarItemClick}></NavBar>
       <img src="chrome_hzBRK5fV4B.png" alt="Tuira maisema" className="object-fill w-screen h-80"/>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center flex-row max-lg:flex-col">
 
         <div className="flex flex-col ml-42">
-          {selectedItem && componentMapping[selectedItem]}
-          <Instagram selectedItem={selectedItem}></Instagram>
+          {selectedItem && componentMapping[selectedItem] ? (
+            <>
+              {componentMapping[selectedItem]}
+              <Instagram selectedItem={selectedItem}></Instagram>
+            </>
+          ) : (
+            <ErrorComponent selectedItem={selectedItem}/>
+          )
+        }
         </div>
 
         <div className="flex flex-col m-8">
