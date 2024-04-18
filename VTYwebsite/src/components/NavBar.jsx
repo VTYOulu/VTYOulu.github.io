@@ -10,7 +10,6 @@ const NavBar = (props) => {
         <NavButton name={"Tapahtumat"} onItemClick={props.onItemClick}></NavButton>
         <NavButton name={"Liittyminen"} onItemClick={props.onItemClick}></NavButton>
         <NavButton name={"Yhteystiedot"} items={["Muita linkkejä"]} onItemClick={props.onItemClick}></NavButton>
-        {/* More buttons as you wish! */}
       </div>
     </div>
   );

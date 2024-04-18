@@ -10,6 +10,17 @@ import Events from './components/Events'
 import VTYBoard from './components/pages/VTYBoard'
 import PrivacyStatement from './components/pages/PrivacyStatement'
 import ErrorComponent from './components/ErrorComponent'
+import LittleXmas from './components/pages/LittleXmas'
+import OutsideExcursion from './components/pages/OutsideExcursion'
+import InlandExcursion from './components/pages/InlandExcursion'
+import MorningSeminar from './components/pages/MorningSeminar'
+import AnnualReport from './components/pages/AnnualReport'
+import Rules from './components/pages/Rules'
+import OtherLinks from './components/pages/OtherLinks'
+import Joining from './components/pages/Joining'
+import Happenings from './components/pages/Happenings'
+import Contact from './components/pages/Contact'
+import Activity from './components/pages/Activity'
 
 
 function App() {
@@ -21,9 +32,20 @@ function App() {
   };
 
   const componentMapping = {
-    Etusivu: <MainText onItemClick={handleNavBarItemClick}/>,
-    Hallitus: <VTYBoard />,
-    Tietosuojaseloste: <PrivacyStatement />,
+    "Etusivu" : <MainText onItemClick={handleNavBarItemClick}/>,
+    "Hallitus" : <VTYBoard />,
+    "Tietosuojaseloste" : <PrivacyStatement />,
+    "Pikkujoulut" : <LittleXmas />,
+    "Ulkomaan excursio" :  <OutsideExcursion/>,
+    "Kotimaan excursio" :  <InlandExcursion/>,
+    "Aamupala seminaari" : <MorningSeminar/>,
+    "Toimintakertomus" : <AnnualReport/>,
+    "Säännöt" : <Rules/>,
+    "Muita linkkejä" : <OtherLinks/>,
+    "Liittyminen" : <Joining/>,
+    "Tapahtumat" : <Happenings/>,
+    "Toiminta" : <Activity/>,
+    "Yhteystiedot" : <Contact/>,
   };
 
 
