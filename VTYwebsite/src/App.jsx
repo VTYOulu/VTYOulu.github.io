@@ -42,7 +42,7 @@ function App() {
     "Toimintakertomus" : <AnnualReport/>,
     "Säännöt" : <Rules/>,
     "Muita linkkejä" : <OtherLinks/>,
-    "Liittyminen" : <Joining/>,
+    "Liittyminen" : <Joining onItemClick={handleNavBarItemClick}/>,
     "Tapahtumat" : <Happenings/>,
     "Toiminta" : <Activity/>,
     "Yhteystiedot" : <Contact/>,
