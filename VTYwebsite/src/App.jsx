@@ -1,23 +1,28 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import TopBar from './components/TopBar'
 import NavBar from './components/NavBar'
 import Instagram from './components/Instagram'
 import BottomBar from './components/BottomBar'
-import MainText from './components/MainText'
+import MainText from './components/pages/MainText'
 import Sponsors from './components/Sponsors'
 import Events from './components/Events'
-
+import VTYBoard from './components/pages/VTYBoard'
+import PrivacyStatement from './components/pages/PrivacyStatement'
 
 
 function App() {
-  const [selectedItem, setSelectedItem] = useState(null);
+  const [selectedItem, setSelectedItem] = useState("Etusivu");
 
   const handleNavBarItemClick = (item) => {
     console.log(item);
     setSelectedItem(item);
+  };
+
+  const componentMapping = {
+    Etusivu: <MainText />,
+    Hallitus: <VTYBoard />,
+    Tietosuojaseloste: <PrivacyStatement />,
   };
 
 
@@ -30,8 +35,8 @@ function App() {
       <div className="flex justify-center">
 
         <div className="flex flex-col ml-42">
-          <MainText></MainText>
-          <Instagram></Instagram>
+          {selectedItem && componentMapping[selectedItem]}
+          <Instagram selectedItem={selectedItem}></Instagram>
         </div>
 
         <div className="flex flex-col m-8">
@@ -40,7 +45,6 @@ function App() {
         </div>
 
       </div>
-      
       <BottomBar onItemClick={handleNavBarItemClick}></BottomBar>
     </div>
   )
