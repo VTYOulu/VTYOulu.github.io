@@ -13,11 +13,11 @@ const MainText = ({onItemClick}) => {
       </p>
       <br></br>
       <p className="text-xl text-gray-700">
-        Näkyvin toimintamme on excursioiden järjestäminen koti- ja ulkomaille. Perinteisesti joka toinen vuosi tehdään isompi reissu ulkomaille, ja vuosittain pienempiä vierailuja lähialueen yrityksiin. Lue lisää <strong>toiminta</strong>-sivulta.
+        Näkyvin toimintamme on excursioiden järjestäminen koti- ja ulkomaille. Perinteisesti joka toinen vuosi tehdään isompi reissu ulkomaille, ja vuosittain pienempiä vierailuja lähialueen yrityksiin. Lue lisää <LinkText clickHandler={onItemClick} item={"Toiminta"}>Toiminta</LinkText>-sivulta.
       </p>
       <br></br>
       <p className="text-xl text-gray-700">
-        VTY:n jäsenyys kannattaa! Jäsenenä pääset osallistumaan yhdistyksen tapahtumiin ja saat jäsenedut. Lue lisää <strong>täältä</strong>.
+        VTY:n jäsenyys kannattaa! Jäsenenä pääset osallistumaan yhdistyksen tapahtumiin ja saat jäsenedut. Lue lisää <LinkText clickHandler={onItemClick} item={"Liittyminen"}>täältä</LinkText>.
       </p>
     </div>
     </>
