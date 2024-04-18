@@ -11,7 +11,7 @@ const Events = ({onItemClick}) => {
         <br></br>
         <LinkText className={"text-md"} clickHandler={onItemClick} item={"Kotimaan excursio"}>Kotimaan excursio</LinkText>
         <br></br>
-        <LinkText className={"text-md"} clickHandler={onItemClick} item={"Aamupala seminaari"}>Aamupala seminaari</LinkText>
+        <LinkText className={"text-md"} clickHandler={onItemClick} item={"Aamupala seminaari"}>Aamupalaseminaari</LinkText>
     </div>
   );
 };
