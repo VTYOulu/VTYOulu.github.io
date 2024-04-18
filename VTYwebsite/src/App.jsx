@@ -48,7 +48,7 @@ function App() {
         </div>
 
         <div className="flex flex-col m-8">
-          <Events></Events>
+          <Events onItemClick={handleNavBarItemClick}></Events>
           <Sponsors></Sponsors>
         </div>
 

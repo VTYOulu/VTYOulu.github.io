@@ -22,15 +22,15 @@ const NavButton = (props) => {
     onItemClick(item);
     setIsOpen(false);
   };
-
+  // href for webcrawlers
   return (
     <>
       <div
         className="relative inline-block"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-      >
-        <button className="mx-6 hover:brightness-110" onClick={() => onItemClick(name)}>
+      > 
+        <button className="mx-6 hover:brightness-110" href={name} onClick={() => onItemClick(name)}>
           {name}
         </button>
 
@@ -44,6 +44,7 @@ const NavButton = (props) => {
             <div className="py-1">
               {items.map((item, index) => (
                 <button
+                  href={item}
                   key={index}
                   className="block px-4 py-2 text-neutral-200 hover:brightness-110 w-full text-left"
                   onClick={() => handleItemClick(item)}
