@@ -4,8 +4,8 @@ import { InstagramEmbed } from 'react-social-media-embed';
 
 const Instagram = ({selectedItem}) => {
   return ( // Just hides and avoids reRenders
-    <div className={`flex ${selectedItem !== 'Etusivu' ? 'hidden' : ''}`}> 
-        <InstagramEmbed url="https://www.instagram.com/vtyoulu/" width={700} height={700} />
+    <div className={`flex ml-4 ${selectedItem !== 'Etusivu' ? 'hidden' : ''}`}> 
+        <InstagramEmbed url="https://www.instagram.com/vtyoulu/" width={"56vh"} height={"56vh"} />
     </div>
   );
 };
