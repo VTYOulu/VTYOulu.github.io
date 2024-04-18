@@ -30,7 +30,7 @@ const NavButton = (props) => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <button className="mx-6" onClick={() => onItemClick(name)}>
+        <button className="mx-6 hover:brightness-110" onClick={() => onItemClick(name)}>
           {name}
         </button>
 
