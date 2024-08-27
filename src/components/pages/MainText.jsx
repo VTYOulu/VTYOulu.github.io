@@ -7,7 +7,7 @@ const MainText = ({onItemClick}) => {
   return ( 
     <>
     <div className="max-w-3xl p-4">
-      <h1 className="text-3xl font-semibold text-left mb-4">Tervetuloa Merikoskeen</h1>
+      <h1 className="text-3xl font-semibold text-left mb-4">Tervetuloa Merikoskeen!</h1>
       <p className="text-xl text-gray-700">
         <strong>Oulun yliopiston Vesiteknillinen yhdistys ry </strong> on vesitekniikasta kiinnostuneille tarkoitettu ammattiainekerho. VTY:n tarkoituksena on edistää vesitekniikan opiskelua, pitää yhteyttä alan yrityksiin ja tarjota vapaa-ajan toimintoja opiskelijoille.
       </p>
