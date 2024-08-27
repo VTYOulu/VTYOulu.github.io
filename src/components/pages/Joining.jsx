@@ -17,7 +17,7 @@ const Joining = ({onItemClick}) => {
           <p className="text-xl text-gray-700 mt-6">Kyllä. Kyseessä on Maa- ja vesitekniikan tuki ry:n julkaisema vesialan ammattilehti. Kuusi kertaa vuodessa ilmestyvä tuhti tietopaketti, jonka vuosikerralla on muuten hintaa 50€! <strong>Sinulle, tuleva/nykyinen VTY:n opiskelijajäsen, tämä pirskahtelevan raikas lukukokemus on täysin ILMAINEN.</strong> </p>
         </div>
         <div className="w-full pl-12 mt-6 md:w-1/2">
-          <img src="vesitalous-217x300.jpg" alt="Tuira maisema"></img>
+          <img src="./vesitalous-217x300.jpg" alt="Tuira maisema"></img>
         </div>
       </div>
     </div>

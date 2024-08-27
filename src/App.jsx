@@ -53,7 +53,7 @@ function App() {
     <div className="flex flex-col">
       <TopBar></TopBar>
       <NavBar onItemClick={handleNavBarItemClick}></NavBar>
-      <img src="chrome_hzBRK5fV4B.png" alt="Tuira maisema" className="transition-all duration-300 ease-in-out object-fill mb-6 w-screen h-96 max-sm:h-24 max-md:h-48 max-lg:h-80 overflow-hidden"/>
+      <img src="./chrome_hzBRK5fV4B.png" alt="Tuira maisema" className="transition-all duration-300 ease-in-out object-fill mb-6 w-screen h-96 max-sm:h-24 max-md:h-48 max-lg:h-80 overflow-hidden"/>
 
       <div className="flex justify-center flex-row max-lg:flex-col">
 
