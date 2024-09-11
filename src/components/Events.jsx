@@ -5,7 +5,7 @@ const Events = ({onItemClick}) => {
   return (
     <div>
         <p className='text-lg font-semibold drop-shadow-lg mt-4'> Tapahtumia: </p>
-        <LinkText className={"text-md"} clickHandler={onItemClick} item={"Pikkujoulut"}>Pikkujoulut</LinkText>
+        <LinkText className={"text-md"} clickHandler={onItemClick} item={"Pikkujoulut"}>Pikkujoulut ja vaalikokous</LinkText>
         <br></br>
         <LinkText className={"text-md"} clickHandler={onItemClick} item={"Ulkomaan excursio"}>Ulkomaan excursio</LinkText>
         <br></br>
