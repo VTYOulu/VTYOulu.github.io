@@ -8,7 +8,7 @@ const InlandExcursion = ({onItemClick}) => {
       <p className="text-xl text-gray-700"> 
         VTY järjestää kotimaan excursion vuorottaisina vuosina ulkoexcursion kanssa. Excursio tarjoaa jäsenille mahdollisuuden tutustua lähemmin Suomen eri kaupunkeihin ja niiden yrityksiin, sillä vierailemme paikallisissa yrityksissä tutustumassa heidän toimintaansa. 
       </p>
-      <p className="text-xl text-gray-700 mt-2">
+      <p className="text-xl text-gray-700 my-2">
         Matkan aikana nautitaan myös rennosta yhdessäolosta ja paikallisista nähtävyyksistä. Reittiin voi kuulua vierailuja historiallisiin kohteisiin, luonnonkauniisiin maisemiin ja rentouttavia illanviettoja mukavassa seurassa. 
       </p>
     </div>
