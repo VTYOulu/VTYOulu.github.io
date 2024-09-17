@@ -7,3 +7,6 @@ https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-
 https://www.youtube.com/watch?v=K5DTIf-jWhk
 
 The website will auto-update and reflect all changes to main via the github runner. The built react project can be found at gh-pages branch.
+
+
+### https://github.com/LucasMS115/React-send-emails?tab=readme-ov-file
