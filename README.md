@@ -10,3 +10,5 @@ The website will auto-update and reflect all changes to main via the github runn
 
 
 ### https://github.com/LucasMS115/React-send-emails?tab=readme-ov-file
+### https://medium.com/@irfankaraman/how-to-hide-api-keys-in-github-actions-bc95bc4b4188
+hide api keys
