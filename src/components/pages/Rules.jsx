@@ -11,7 +11,7 @@ const Rules = ({onItemClick}) => {
         <p className='mt-4 text-gray-600'> 1 § Yhdistyksen nimi, kotipaikka ja kieli</p>
         <p className='mt-4 text-black'> Yhdistyksen nimi on Oulun yliopiston Vesiteknillinen yhdistys ja sen kotipaikka on Oulun kaupunki. Yhdistys on suomenkielinen.</p>
         <p className='mt-4 text-gray-600'> 2 § Yhdistyksen tarkoitus ja tavoitteet</p>
-        <p className='mt-4 text-black'> Yhdistyksen tavoitteena on luoda ja ylläpitää suhteita yliopiston henkilökunnan ja opiskelijoiden välillä.</p>
+        <p className='mt-4 text-black'> Yhdistyksen tarkoituksena on ajaa jäsentensä yleisiä ja yhteiseen opiskeluun liittyviä etuja yliopistossa, yhdistää jäseniään, innostaa seuraamaan ammatillisia kysymyksiä, edistää ammattitaitoa sekä luoda ja ylläpitää suhteita työelämään. Yhdistyksen tavoitteena on luoda ja ylläpitää suhteita yliopiston henkilökunnan ja opiskelijoiden välillä.</p>
         <p className='mt-4 text-gray-600'> 3 § Tarkoituksen toteuttaminen</p>
         <p className='mt-4 text-black'> Tarkoituksensa toteuttamiseksi yhdistys järjestää jäsenilleen kokouksia, illanviettoja, juhlia ja opintomatkoja, harjoittaa koulutus-, tiedotus- ja julkaisutoimintaa ja on yhteistyössä muiden alan järjestöjen kanssa. Toimintansa tukemiseksi yhdistys voi järjestää arpajaisia, myyjäisiä ja maksullisia huvitilaisuuksia asianmukaisen luvan saatuaan, ottaa vastaan lahjoituksia ja omistaa toimintaansa varten tarpeellista kiinteää omaisuutta.</p>
         <p className='mt-4 text-gray-600'> 2 LUKU – jäsenet</p>
