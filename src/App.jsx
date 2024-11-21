@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import './App.css'
 import TopBar from './components/TopBar'
 import NavBar from './components/NavBar'
 import Instagram from './components/Instagram'
@@ -21,18 +20,22 @@ import Joining from './components/pages/Joining'
 import Happenings from './components/pages/Happenings'
 import Contact from './components/pages/Contact'
 import Activity from './components/pages/Activity'
-
+import './App.css'
 
 function App() {
   const [selectedItem, setSelectedItem] = useState("Etusivu");
 
   useEffect(() => {
-    const path = window.location.pathname.substring(1);
-    setSelectedItem(path === "/" ? selectedItem : path);
+    console.log("Why use React router when you can reinvent the wheel :/")
+    const urlParams = new URLSearchParams(window.location.search);
+    const query = urlParams.get('s') || 'Etusivu';
+    setSelectedItem(query);
   }, []);
 
   const handleNavBarItemClick = (item) => {
-    window.history.pushState({}, '', item);
+    const urlParams = new URLSearchParams(window.location.search);
+    urlParams.set('s', item);
+    window.history.pushState({}, '', `${window.location.pathname}?${urlParams.toString()}`);
     setSelectedItem(item);
   };
 
