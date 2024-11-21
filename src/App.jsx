@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 import TopBar from './components/TopBar'
 import NavBar from './components/NavBar'
@@ -26,8 +26,13 @@ import Activity from './components/pages/Activity'
 function App() {
   const [selectedItem, setSelectedItem] = useState("Etusivu");
 
+  useEffect(() => {
+    const path = window.location.pathname.substring(1);
+    setSelectedItem(path === "/" ? selectedItem : path);
+  }, []);
+
   const handleNavBarItemClick = (item) => {
-    console.log(item);
+    window.history.pushState({}, '', item);
     setSelectedItem(item);
   };
 
