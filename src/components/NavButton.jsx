@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react';
 
-const NavButton = (props) => {
-  const { name, onItemClick, items } = props;
+const NavButton = ({ name, secondary, onItemClick, items }) => {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
   const timeoutRef = useRef(null);
@@ -22,6 +21,8 @@ const NavButton = (props) => {
     onItemClick(item);
     setIsOpen(false);
   };
+
+  const routeTo = secondary || name;
   // href for webcrawlers
   return (
     <>
@@ -30,7 +31,7 @@ const NavButton = (props) => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       > 
-        <button className="mx-6 hover:brightness-110" href={name} onClick={() => onItemClick(name)}>
+        <button className="mx-6 hover:brightness-110" href={routeTo} onClick={() => onItemClick(routeTo)}>
           {name}
         </button>
 
