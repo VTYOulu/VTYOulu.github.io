@@ -8,7 +8,7 @@ const Joining = ({onItemClick}) => {
       <p className="text-xl text-gray-700 mt-4">Mikäli olet tekniikan opiskelija, liittyminen tapahtuu joko <a className="text-blue-500 hover:underline" href="https://forms.office.com/e/bgEwYHdFcZ">Forms linkin</a> kautta tai seuraavan ohjeen mukaan. Muussa tapauksessa ota yhteyttä hallitukseen. </p>
       <p className="text-xl text-gray-700 mt-4 ml-1"><strong>Ohje:</strong></p>
       <div className='text-xl text-gray-700 mt-4 ml-4 mb-2'>
-        <p className="text-xl">1. Maksa liittymismaksu kuusi (6) euroa Oulun yliopiston Vesiteknillinen Yhdistys ry:n tilille <strong>FI50 4108 0010 3828 47</strong> (BIC: ITELFIHH). Muista laittaa viestiksi oma nimesi!</p>
+        <p className="text-xl">1. Maksa liittymismaksu kuusi (6) euroa Oulun yliopiston Vesiteknillinen yhdistys ry:n tilille <strong>FI50 4108 0010 3828 47</strong> (BIC: ITELFIHH). Muista laittaa viestiksi oma nimesi!</p>
         <p className="text-xl">2. Lähetä sähköpostia osoitteeseen <a className="text-blue-500 hover:underline" href="mailto:vty@student.oulu.fi">vty@student.oulu.fi</a>. Kirjoita viestiin täydellinen nimesi, syntymävuotesi, sekä tutkinto-ohjelmasi.</p>
       </div>
       <p className="text-xl text-gray-700 ml-0"><strong>HUOM! </strong>

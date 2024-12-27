@@ -7,7 +7,7 @@ const PrivacyStatement = () => {
       <p className="text-xl text-gray-700">
         Tietosuojaseloste – Jäsenrekisteri
         <br />
-        Tämä on EU:n yleisen tietosuoja-asetuksen (GDPR) mukainen rekisteri- ja tietosuojaseloste Oulun yliopiston Vesiteknillinen Yhdistys ry:lle.
+        Tämä on EU:n yleisen tietosuoja-asetuksen (GDPR) mukainen rekisteri- ja tietosuojaseloste Oulun yliopiston Vesiteknillinen yhdistys ry:lle.
         <br />
         Laatimispäivämäärä 15.05.2018. Viimeisin muutos 6.9.2021.
       </p>
