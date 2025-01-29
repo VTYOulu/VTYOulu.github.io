@@ -6,19 +6,18 @@ const VTYBoard = () => {
       <h1 className="text-3xl font-semibold text-left ml-8">Hallitus</h1>
       <div className='flex max-sm:flex-wrap w-full m-4 p-4'>
         <div className="w-2/5 mr-8 mt-8">
-          <p className="text-xl font-semibold text-gray-700 mb-2">VTY:n Hallitus 2024</p>
-          <p className='mt-4'><strong>Puheenjohtaja: </strong> Jaakko Nissilä</p>
-          <p className='mt-4'><strong>Sihteeri: </strong> Anni-Noora Niemelä</p>
-          <p className='mt-4'><strong>Rahastonhoitaja: </strong> Roope Pihlajavirta</p>
-          <p className='mt-4'><strong>Excursiomestari: </strong> Heikki Timonen</p>
-          <p className='mt-4'><strong>Virallinen fuksi: </strong> Maria Lindqvist</p>
-          <p className='mt-4'><strong>Emäntä: </strong> Nella Hietanen</p>
-          <p className='mt-4'><strong>Tapahtumavastaava: </strong> Eetu Ahonen</p>
+          <p className="text-xl font-semibold text-gray-700 mb-2">VTY:n Hallitus 2025</p>
+          <p className='mt-4'><strong>Puheenjohtaja: </strong> Roope Pihlajavirta</p>
+          <p className='mt-4'><strong>Sihteeri: </strong> Katri Vaarala</p>
+          <p className='mt-4'><strong>Rahastonhoitaja: </strong> Heikki Timonen</p>
+          <p className='mt-4'><strong>Excursiomestari: </strong> Nella Hietanen</p>
+          <p className='mt-4'><strong>Emäntä: </strong> Ella Pesonen</p>
+          <p className='mt-4'><strong>Tapahtumavastaava: </strong> Jaakko Nissilä</p>
+          <p className='mt-4'><strong>Virallinen fuksi: </strong> Jaakko Reunanen</p>
           <p className='mt-4'>Toimihenkilöt: </p>
-          <p className='mt-4'><strong>Webmaster: </strong> Ville-Veikka Kiiskilä</p>
-          <p className='mt-4'><strong>Excuapuri: </strong> Katri Vaarala</p>
-          <p className='mt-4'><strong>Kummi: </strong> Maria Wiik</p>
-          <p className='mt-4'><strong>Vuosijuhlavastaava: </strong> Roope Pihlajavirta</p>
+          <p className='mt-4'><strong>Webmaster: </strong> Anni-Noora Niemelä</p>
+          <p className='mt-4'><strong>Excuapuri: </strong> Atte Seppänen</p>
+          <p className='mt-4'><strong>Kummi: </strong> Jaakko Nissilä</p>
           <br></br>
           <p>Puheenjohtajan saa kiinni sähköpostiosoitteesta <a class="text-blue-500 hover:underline" href="mailto:vty@student.oulu.fi">vty@student.oulu.fi</a></p>
         </div>
