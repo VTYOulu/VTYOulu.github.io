@@ -17,7 +17,7 @@ const MainText = ({onItemClick}) => {
       </p>
       <br></br>
       <p className="text-xl text-gray-700">
-        VTY:n jäsenyys kannattaa! Jäsenenä pääset osallistumaan yhdistyksen tapahtumiin ja saat jäsenedut. Lue lisää <LinkText clickHandler={onItemClick} item={"Liittyminen"}>täältä</LinkText>.
+      VTY:n jäsenyys kannattaa! Jäsenenä pääset osallistumaan yhdistyksen tapahtumiin ja saat jäsenedut. Lue lisää <LinkText clickHandler={onItemClick} item={"Liittyminen"}>täältä</LinkText>.
       </p>
     </div>
     </>

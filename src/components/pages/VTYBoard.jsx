@@ -22,15 +22,40 @@ const VTYBoard = () => {
           <p>Puheenjohtajan saa kiinni sähköpostiosoitteesta <a class="text-blue-500 hover:underline" href="mailto:vty@student.oulu.fi">vty@student.oulu.fi</a></p>
         </div>
         <div className="w-3/5 mt-8">
-          <p className="text-xl font-semibold text-gray-700 mb-2">Toimintasuunitelma 2024</p>
-          <p>Vuonna 2024 VTY:n toiminta keskittyy excursioiden ja muiden jäsenistölle suunnattujen tapahtumien järjestämiseen. Hallitus kokoontuu tarpeen vaatiessa, kuitenkin vähintään kaksi kertaa toimikauden aikana. Yhdistyksen sääntömääräiset kokoukset järjestetään sääntöjen määräämissä puitteissa: vuosikokous maaliskuun loppuun mennessä ja vaalikokous joulukuussa. Yhteistyötä Maa- ja vesitekniikan tuki ry:n ja RIL:in kanssa jatketaan. Lisäksi pyritään tekemään yhteistyötä aikaisempien yhteistyökumppaneiden kanssa, joita ovat esimerkiksi AFRY ja Ramboll. Lisäksi yhteistyötä pyritään jatkamaan muiden vesitekniikan ammattiainekerhojen Flokki ry:n sekä Akvan kanssa. Lisäksi helmikuussa järjestettävien yhdistyksen 40-v vuosijuhlien valmistelua jatketaan. Vuosijuhlat pidetään Oulussa Teekkaritalolla 10.2.2024</p>
+          <p className="text-justify text-xl font-semibold text-gray-700 mb-2">Toimintasuunitelma 2025</p>
+          <p>
+            Vuonna 2025 VTY järjestää excursioita ja muita jäsenistölle suunnattuja tapahtumia. Hallitus 
+            kokoontuu tarpeen vaatiessa, kuitenkin vähintään kaksi kertaa toimikauden aikana. 
+            Yhdistyksen sääntömääräiset kokoukset järjestetään sääntöjen määräämissä puitteissa: 
+            vuosikokous maaliskuun loppuun mennessä ja vaalikokous joulukuussa. Yhteistyötä Maa- ja 
+            vesitekniikan tuki ry:n ja RIL:in kanssa jatketaan. VTY pyrkii tekemään yhteistyötä 
+            aikaisempien yhteistyökumppaneiden kanssa, joita ovat esimerkiksi AFRY ja Ramboll. Lisäksi 
+            yhteistyötä pyritään jatkamaan muiden vesitekniikan ammattiainekerhojen Flokki ry:n sekä 
+            Akvan kanssa.
+          </p>
           <br></br>
-          <p>Keväällä järjestetään myös perinteinen polkupyöräexcursio, jossa vieraillaan vesialan yrityksissä Oulun alueella. Lisäksi syksyllä pyritään järjestämään ulkomaille suuntautuva excursio. Keväällä tai syksyllä järjestetään aamupalaseminaari, joihin kutsutaan vesitekniikan alan toimijoita esittelemään työllisyysmahdollisuuksia sekä alan tutkimusta ja projekteja. Tiedustellaan mahdollisuutta päästä tutustumaan Oulun yliopistolla tehtävään vesitekniikan alan tutkimustyöhön.</p>
+          <p>
+            Keväällä järjestetään perinteinen polkupyöräexcursio, jossa vieraillaan vesitekniikan alan 
+            yrityksissä Oulun alueella. Lisäksi syksyllä pyritään järjestämään kotimaahan suuntautuva 
+            excursio. Keväällä tai syksyllä järjestetään aamupalaseminaari, joihin kutsutaan vesitekniikan 
+            alan toimijoita esittelemään työllisyysmahdollisuuksia sekä alan tutkimusta ja projekteja. 
+            Yhteistyötä Oulun yliopiston vesitekniikan henkilökunnan kanssa pyritään lisäämään samalla 
+            tutustuen alan tutkimukseen ja sen uramahdollisuuksiin.  
+          </p>
           <br></br>
-          <p>Yhdistyksen toimintaa esitellään syksyllä Oulun yliopiston Ympäristörakentajakillan fuksi-infossa. Uusia toimijoita houkutellaan lähtemään mukaan hallitus- ja toimihenkilöpesteihin vaalikokousta edeltävässä kähmintätilaisuudessa. Tiedustellaan mahdollisuutta päästä esittelemään toimintaa myös muiden Teekkarikiltojen fuksiinfoihin. Vaalikokouksen yhteydessä järjestetään jäsenistölle pikkujoulut, joissa vietetään iltaa ja verkostoidutaan. Tapahtumaan järjestetään diplomityön esittely. Muita tapahtumia yhdistyksen jäsenille järjestetään resurssien ja toimijoiden aktiivisuuden mukaan.</p>
+          <p>
+            VTY pyrkii kohdistamaan toimintaansa siten, että alempien vuosikurssien opiskelijoita 
+            saataisiin aktivoitua mukaan yhdistyksen toimintaan. Yhdistyksen toimintaa esitellään syksyllä 
+            Oulun yliopiston Ympäristörakentajakillan fuksi-infossa. Uusia toimijoita houkutellaan 
+            lähtemään mukaan hallitus- ja toimihenkilöpesteihin vaalikokousta edeltävässä 
+            kähmintätilaisuudessa. Vaalikokouksen yhteydessä järjestetään jäsenistölle pikkujoulut, joissa 
+            vietetään iltaa ja verkostoidutaan. Tapahtumaan järjestetään diplomityön esittely ja 
+            kiinnostuksen mukaan muita yhteistyökumppaneiden esittelyjä. Muita tapahtumia yhdistyksen 
+            jäsenille järjestetään resurssien ja toimijoiden aktiivisuuden mukaan.
+          </p>
           <br></br>
-          <p className='font-light'>Maria Wiik</p>
-          <p className='font-light'>Puheenjohtaja 2023</p>
+          <p className='font-light'>Jaakko Nissilä</p>
+          <p className='font-light'>Puheenjohtaja 2024</p>
         </div>
       </div>
     </div>
