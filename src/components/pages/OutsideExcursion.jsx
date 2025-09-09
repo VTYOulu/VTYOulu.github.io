@@ -14,6 +14,19 @@ const OutsideExcursion = ({onItemClick}) => {
       <p className="text-xl text-gray-700 my-2">
         Matkan ohjelmaan kuuluu myös vapaa-ajan aktiviteetteja, kuten kaupunkikierroksia, kulttuurikohteisiin tutustumista ja yhteisiä illanviettoja.
       </p>
+      <br></br>
+      <p className="text-xl text-gray-700 my-2">
+        Olemme vierailleet muun muassa:
+        </p>
+        <p className="text-xl text-gray-700 my-2">
+        - 2024: Tšekin Prahassa ja Karlovy Varyssä
+      </p>
+      <p className="text-xl text-gray-700 my-2">
+        - 2022: Slovenian Ljubljanassa ja Italian Venetsiassa
+      </p>
+      <p className="text-xl text-gray-700 my-2">
+        - 2018: Unkarin Budapestissä 
+      </p>
     </div>
   );
 };

@@ -11,6 +11,10 @@ const InlandExcursion = ({onItemClick}) => {
       <p className="text-xl text-gray-700 my-2">
         Matkan aikana nautitaan myös rennosta yhdessäolosta ja paikallisista nähtävyyksistä. Reittiin voi kuulua vierailuja historiallisiin kohteisiin, luonnonkauniisiin maisemiin ja rentouttavia illanviettoja mukavassa seurassa. 
       </p>
+      <br></br>
+      <p className="text-xl text-gray-700 my-2">
+        Kotimaan excursion lisäksi VTY järjestää polkupyöräexcursioita Oulun alueella. Polkupyöräexcursio on tapahtuma, jossa pyöräillään yhdessä paikallisiin vesitekniikan alan yrityksiin tutustumaan niiden toimintaan ja samalla nauttien raikkaasta ulkoilmasta.
+      </p>
     </div>
   );
 };
